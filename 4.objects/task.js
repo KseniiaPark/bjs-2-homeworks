@@ -5,8 +5,8 @@ function Student(name, gender, age) {
 	this.marks = [];
 }
 
-const student1 = new Student('Subin', 'female', 20);
-const student2 = new Student('Miry', 'male', 22);
+const student1 = new Student("Василиса", "женский", 19);
+const student2 = new Student("Артём", "мужской", 25);
 
 Student.prototype.setSubject = function(subjectName) {
 	this.subject = subjectName;
